@@ -1,0 +1,12 @@
+//Write a Java program to enter length and width of a rectangle and find its area.(A=W*L)
+import java.util.Scanner;
+public class Area {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter length of a rectagle.");
+		int length = sc.nextInt();
+		System.out.println("Enter width of a rectagle.");
+		int width = sc.nextInt();
+		System.out.println("Area is :"+(length*width));
+	}
+}
