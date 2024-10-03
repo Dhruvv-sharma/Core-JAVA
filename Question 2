@@ -1,0 +1,13 @@
+//Write a Java program to enter radius of a circle and find its diameter, circumference and area.
+//[C = 2 π r] [A = π r 2] [D = 2 × r]
+import java.util.Scanner;
+public class Circle {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter radius of a circle.");
+		float radius = sc.nextFloat();
+		System.out.println("Diameter is: "+(radius*2));
+		System.out.println("Circumference is: "+(Math.PI*radius*2));
+		System.out.println("Area is: "+(Math.PI*radius*radius));
+	}
+}
