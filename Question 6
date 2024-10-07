@@ -1,0 +1,14 @@
+//Write a Java program to enter P, T, R and calculate Simple Interest.A = P (1 + r t)
+import java.util.Scanner;
+public class Simpleintrest {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Principle");
+		int p = sc.nextInt();
+		System.out.println("Enter Time");
+		int t = sc.nextInt();
+		System.out.println("Enter Annual Interest");
+		int r = sc.nextInt();
+		System.out.println("Simple Intrest is : "+ p*(1+ r*t));
+	}
+}
