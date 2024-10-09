@@ -1,0 +1,16 @@
+//Write a Java program to check whether a number is even or odd.
+package Ducat2;
+import java.util.Scanner;
+public class Evenodd {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Number : ");
+		int no = sc.nextInt();
+		if (no%2==0) {
+			System.out.println("Number is Even : "+no);			
+		}
+		else {
+			System.out.println("Number is odd : "+no);
+		}
+	}
+}
